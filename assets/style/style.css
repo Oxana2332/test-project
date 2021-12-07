@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'),
+        url(assets/fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+body {
+    margin: 11px 10px 0px 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", serif;
+    color: #1C3749;
+    font-weight: 600;
+}
+
+hr {
+    border: 1px solid #C6E1FC;
+    border-bottom-width: 0;
+}
+
+.address {
+    font-style: normal
+}
+
+.phonelink {
+    text-decoration: none;
+    color: #1C3749;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.hotline {
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.phone {
+    width: 13.33px;
+    vertical-align: middle;
+}
